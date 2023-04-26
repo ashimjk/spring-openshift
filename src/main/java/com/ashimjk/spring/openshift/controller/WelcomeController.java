@@ -11,4 +11,9 @@ public class WelcomeController {
 		return "Welcome to Spring-OpenShift";
 	}
 
+	@GetMapping("/welcome")
+	public String welcomeToSpring() {
+		return "Welcome to Spring Using REST API";
+	}
+
 }
